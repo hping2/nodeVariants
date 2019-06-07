@@ -1,5 +1,5 @@
 const express = require("express")
-const router = require("./routes/post")
+const router = require("./routes/get")
 const morgan = require("morgan")
 const app = express();
 
