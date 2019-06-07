@@ -1,0 +1,17 @@
+{
+  "name": "mongo-proj",
+  "version": "0.0.0",
+  "server": false,
+  "private": true,
+  "scripts": {
+    "test": "",
+    "dev": "nodemon app.js",
+    "build": ""
+  },
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.19",
+    "nodemon": "^1.17.1"
+  }
+}

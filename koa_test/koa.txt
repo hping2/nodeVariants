@@ -1,0 +1,8 @@
+1) mkdir koala; cd koala; npm init koala; // It creates package.json files
+2) npm install koa --save; // update the package.json
+   npm install koa-router --save;
+3) create index.js file.
+4) js functions:
+   () => console.log('exchange running on port', config.port)
+   (ctx) => { ctx.body = "Welcome! To the Koala Book of Everything!" }
+
