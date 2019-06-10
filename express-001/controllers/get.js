@@ -3,7 +3,12 @@ const getHome = (req, res) => {
 }
 
 const getTest = (req, res) => {
-    res.send("Test")
+    res.send("test")
+}
+
+const getSysInfo = (req, res) => {
+    res.setHeader('Content-Type', 'application/json');
+    res.json({"node":"edge-" + Math.random().toString(36).substring(7)})
 }
 
 const getBackendViolationPerApi = (req, res) => {
@@ -45,6 +50,7 @@ const getRandomInt = (max) => {
 module.exports = {
     getHome,
     getTest,
+    getSysInfo,
     getBackendViolationPerApi,    
     getEdgeDosCountPerErrorAndAction,
     getEdgeDosHighCountPerAction,
