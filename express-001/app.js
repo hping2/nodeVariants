@@ -26,5 +26,6 @@ app.use(myMid)
 app.use("/", router)
 
 const port = 3000
+console.log("Listening on port 3000")
 app.listen(port)
 
